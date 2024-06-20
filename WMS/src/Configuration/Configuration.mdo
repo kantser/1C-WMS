@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdcommon="http://g5.1c.ru/v8/dt/metadata/common" uuid="c07e0c61-7962-4592-92ea-d7546832c795">
+  <name>WMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="45514615-3051-410b-b0a0-93d0c9ddaa11"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="30faab27-70ab-4909-bd29-bdf17b100b6b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ef83cda4-4668-41cb-99d2-9e76eb6f9265"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5f29109c-f5f3-4055-9651-87c54912002d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1d57f832-abfb-4952-92fb-adf2b87e4405"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c5ad88a9-f6a1-43bd-a531-7782a3675b19"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e98bbf49-d209-4de7-add3-87e35e7ea6d7"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mobileApplicationUrls xsi:type="mdcommon:MobileApplicationUrl">
+    <baseUrl>http://localhost</baseUrl>
+    <useAndroid>true</useAndroid>
+    <useWindows>true</useWindows>
+  </mobileApplicationUrls>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="e56e739a-6f1a-4d26-bf76-719b377f36fe">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Приемка</subsystems>
+  <catalogs>Catalog.Номенклатура</catalogs>
+</mdclass:Configuration>
