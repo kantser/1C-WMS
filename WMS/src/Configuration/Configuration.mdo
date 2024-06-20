@@ -46,5 +46,6 @@
   </languages>
   <subsystems>Subsystem.Приемка</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Тест</catalogs>
   <catalogs>Catalog.Товар</catalogs>
 </mdclass:Configuration>
